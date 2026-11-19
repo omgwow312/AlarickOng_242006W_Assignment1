@@ -14,7 +14,8 @@ Provide the references that you have used to support your assignment.
 # How to use my node module
 Firstly, create a new folder and put the AlarickOng_TicketingModule.js file inside the folder.
 create a new javascript file (e.g App.js)
-In First row of App.js, put in "const TicketManager = require('./ticket.js');"
+
+at the first row of App.js, put in "const TicketManager = require('./ticket.js');"
 
 note: arrays that store data is located in the AlarickOng_TicketingModule.js file.
 
@@ -26,3 +27,10 @@ Type in:
 
 Expected Output:
 <img width="337" height="18" alt="image" src="https://github.com/user-attachments/assets/9481d72d-052a-4466-9a02-e8152ce10f30" />
+
+Note that in the concert Array inside AlarickOng_TicketingModule.js file, the NumberOfTicketsLeft value is 5.
+
+Type in another 5 lines of "TicketManager.BookTicket(TicketManager.user[0], TicketManager.concerts[0])" (Total 6 lines) and run
+
+Expected output: <img width="353" height="127" alt="image" src="https://github.com/user-attachments/assets/b31bcf3f-ff44-43d4-a340-c3defb6d0456" />
+
