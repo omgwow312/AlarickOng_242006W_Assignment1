@@ -12,3 +12,17 @@ For some tips in formatting text in readme file, refer to https://docs.github.co
 Provide the references that you have used to support your assignment. 
 
 # How to use my node module
+Firstly, create a new folder and put the AlarickOng_TicketingModule.js file inside the folder.
+create a new javascript file (e.g App.js)
+In First row of App.js, put in "const TicketManager = require('./ticket.js');"
+
+note: arrays that store data is located in the AlarickOng_TicketingModule.js file.
+
+## 1. Booking Ticket Function
+Parameters required: User json object, Concert Json object
+
+Type in:
+"TicketManager.BookTicket(TicketManager.user[0], TicketManager.concerts[0])"
+
+Expected Output:
+<img width="337" height="18" alt="image" src="https://github.com/user-attachments/assets/9481d72d-052a-4466-9a02-e8152ce10f30" />
