@@ -17,7 +17,7 @@ create a new javascript file (e.g App.js)
 
 at the first row of App.js, put in "const TicketManager = require('./ticket.js');"
 
-note: arrays that store data is located in the AlarickOng_TicketingModule.js file.
+>note: arrays that store data is located in the AlarickOng_TicketingModule.js file.
 
 ## 1. Booking Ticket Function
 Parameters required: User json object, Concert Json object
@@ -28,7 +28,7 @@ Type in:
 Expected Output:
 <img width="337" height="18" alt="image" src="https://github.com/user-attachments/assets/9481d72d-052a-4466-9a02-e8152ce10f30" />
 
-Note that in the concert Array inside AlarickOng_TicketingModule.js file, the NumberOfTicketsLeft value is 5.
+>Note that in the concert Array inside AlarickOng_TicketingModule.js file, the NumberOfTicketsLeft value is 5.
 
 Type in another 5 lines of "TicketManager.BookTicket(TicketManager.user[0], TicketManager.concerts[0])" (Total 6 lines) and run
 
