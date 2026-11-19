@@ -13,9 +13,9 @@ Provide the references that you have used to support your assignment.
 
 # How to use my node module
 Firstly, create a new folder and put the AlarickOng_TicketingModule.js file inside the folder.
-create a new javascript file (e.g App.js)
+create a new javascript file (e.g App.js) in the folder also.
 
-at the first row of App.js, put in "const TicketManager = require('./ticket.js');"
+At the first row of App.js, Type in "const TicketManager = require('./AlarickOng_TicketingModule.js');"
 
 >note: arrays that store data is located in the AlarickOng_TicketingModule.js file.
 
@@ -31,7 +31,7 @@ Type in:
 Expected Output:
 <img width="337" height="18" alt="image" src="https://github.com/user-attachments/assets/9481d72d-052a-4466-9a02-e8152ce10f30" />
 
->the Concer Json object will be stored in the User Json Object
+>the Concert Json object will be stored in the User Json Object
 
 ### Sold out Situation
 > Note that in the concert Array inside AlarickOng_TicketingModule.js file, the NumberOfTicketsLeft value is 5.
@@ -85,7 +85,7 @@ This Function will calculate the total number and Price for tickets that have se
 
 Previously we have 2 Successfully Selection of seats, A1 and C3 for Bookings[0] and Bookings [3]
 Type in: "TicketManager.Payment(TicketManager.user[0])"
-> It will run a for loop and calculate the total Price of the tickets that has seats selected.
+> It will run a for loop and calculate the total Price of the tickets that have seats selected.
 
 Expected Output: <img width="362" height="56" alt="image" src="https://github.com/user-attachments/assets/643bcc97-db54-4da7-9269-b64ccca74aea" />
 > Verify that in the Concert Array in AlarickOng_TicketingModule.js file, the Price for Concert 1 is 10000. So 2 x 10000 is 20000
@@ -101,7 +101,7 @@ and "console.log(TicketManager.user[0])" to verify the output
 
 Expected Output: <img width="462" height="557" alt="image" src="https://github.com/user-attachments/assets/47c15a93-8c14-45ac-900d-17473b29f3c1" />
 
-> Verify that the user only left with 2 completed booking records
+> Verify that the Json Object only appears after 5 seconds and the user only left with 2 completed booking records
 
 
 
